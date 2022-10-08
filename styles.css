@@ -157,13 +157,28 @@ button {
 
 .quote-size {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 
 .body-3 {
-    padding: 24px;
+    padding: 64px 128px;
+}
+
+.call-to-action .sign-up {
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+.call-to-action .main-text {
+    font-weight: bold;
+}
+
+.call-to-action {
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
 }
 
 
